@@ -1,0 +1,304 @@
+@font-face {
+  font-family: 'Socialicious';
+  src: url('../font/socialicious-regular-webfont.eot?v=1.0');
+  src: url('../font/socialicious-regular-webfont.eot?#iefix&v=1.0') format('embedded-opentype'),
+    url('../font/socialicious-regular-webfont.woff?v=1.0') format('woff'),
+    url('../font/socialicious-regular-webfont.ttf?v=1.0') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: 'Socialicious';
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: inherit;
+  -webkit-font-smoothing: antialiased;
+
+  /* sprites.less reset */
+  display: inline;
+  width: auto;
+  height: auto;
+  line-height: normal;
+  vertical-align: baseline;
+  background-image: none;
+  background-position: 0% 0%;
+  background-repeat: repeat;
+  margin-top: 0;
+}
+/* more sprites.less reset */
+.icon-white,
+.nav-pills > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-list > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"] {
+  background-image: none;
+}
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none;
+}
+/* makes sure icons active on rollover in links */
+a [class^="icon-"],
+a [class*=" icon-"] {
+  display: inline-block;
+}
+/* makes the font 33% larger relative to the icon container */
+.icon-large:before {
+  vertical-align: -10%;
+  font-size: 1.3333333333333333em;
+}
+.btn [class^="icon-"],
+.nav [class^="icon-"],
+.btn [class*=" icon-"],
+.nav [class*=" icon-"] {
+  display: inline;
+  /* keeps button heights with and without icons the same */
+
+}
+.btn [class^="icon-"].icon-large,
+.nav [class^="icon-"].icon-large,
+.btn [class*=" icon-"].icon-large,
+.nav [class*=" icon-"].icon-large {
+  line-height: .9em;
+}
+.btn [class^="icon-"].icon-spin,
+.nav [class^="icon-"].icon-spin,
+.btn [class*=" icon-"].icon-spin,
+.nav [class*=" icon-"].icon-spin {
+  display: inline-block;
+}
+.nav-tabs [class^="icon-"],
+.nav-pills [class^="icon-"],
+.nav-tabs [class*=" icon-"],
+.nav-pills [class*=" icon-"] {
+  /* keeps button heights with and without icons the same */
+
+}
+.nav-tabs [class^="icon-"],
+.nav-pills [class^="icon-"],
+.nav-tabs [class*=" icon-"],
+.nav-pills [class*=" icon-"],
+.nav-tabs [class^="icon-"].icon-large,
+.nav-pills [class^="icon-"].icon-large,
+.nav-tabs [class*=" icon-"].icon-large,
+.nav-pills [class*=" icon-"].icon-large {
+  line-height: .9em;
+}
+li [class^="icon-"],
+.nav li [class^="icon-"],
+li [class*=" icon-"],
+.nav li [class*=" icon-"] {
+  display: inline-block;
+  width: 1.25em;
+  text-align: center;
+}
+li [class^="icon-"].icon-large,
+.nav li [class^="icon-"].icon-large,
+li [class*=" icon-"].icon-large,
+.nav li [class*=" icon-"].icon-large {
+  /* increased font size for icon-large */
+
+  width: 1.5625em;
+}
+ul.icons {
+  list-style-type: none;
+  text-indent: -0.75em;
+}
+ul.icons li [class^="icon-"],
+ul.icons li [class*=" icon-"] {
+  width: .75em;
+}
+.icon-muted {
+  color: #eeeeee;
+}
+.icon-border {
+  border: solid 1px #eeeeee;
+  padding: .2em .25em .15em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.icon-2x {
+  font-size: 2em;
+}
+.icon-2x.icon-border {
+  border-width: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.icon-3x {
+  font-size: 3em;
+}
+.icon-3x.icon-border {
+  border-width: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.icon-4x {
+  font-size: 4em;
+}
+.icon-4x.icon-border {
+  border-width: 4px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+[class^="icon-"].pull-left,
+[class*=" icon-"].pull-left {
+  margin-right: .3em;
+}
+[class^="icon-"].pull-right,
+[class*=" icon-"].pull-right {
+  margin-left: .3em;
+}
+.btn [class^="icon-"].pull-left.icon-2x,
+.btn [class*=" icon-"].pull-left.icon-2x,
+.btn [class^="icon-"].pull-right.icon-2x,
+.btn [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .18em;
+}
+.btn [class^="icon-"].icon-spin.icon-large,
+.btn [class*=" icon-"].icon-spin.icon-large {
+  line-height: .8em;
+}
+.btn.btn-small [class^="icon-"].pull-left.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-left.icon-2x,
+.btn.btn-small [class^="icon-"].pull-right.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .25em;
+}
+.btn.btn-large [class^="icon-"],
+.btn.btn-large [class*=" icon-"] {
+  margin-top: 0;
+}
+.btn.btn-large [class^="icon-"].pull-left.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-left.icon-2x,
+.btn.btn-large [class^="icon-"].pull-right.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .05em;
+}
+.btn.btn-large [class^="icon-"].pull-left.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-left.icon-2x {
+  margin-right: .2em;
+}
+.btn.btn-large [class^="icon-"].pull-right.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+  margin-left: .2em;
+}
+
+/*  Fonticons uses the Unicode Private Use Area (PUA) to ensure screen
+    readers do not read off random characters that represent icons */
+.icon-instagram-sign:before       { content: "\f000"; }
+.icon-instagram:before            { content: "\f001"; }
+.icon-youtube-sign:before         { content: "\f002"; }
+.icon-youtube:before              { content: "\f003"; }
+.icon-tumblr-sign:before          { content: "\f004"; }
+.icon-tumblr:before               { content: "\f005"; }
+.icon-klout-sign:before           { content: "\f006"; }
+.icon-klout:before                { content: "\f007"; }
+.icon-yelp-sign:before            { content: "\f008"; }
+.icon-yelp:before                 { content: "\f009"; }
+.icon-spotify-sign:before         { content: "\f012"; }
+.icon-spotify:before              { content: "\f013"; }
+.icon-dribbble-sign:before        { content: "\f014"; }
+.icon-dribbble:before             { content: "\f015"; }
+.icon-twitter-sign:before         { content: "\f016"; }
+.icon-twitter:before              { content: "\f017"; }
+.icon-facebook-sign:before        { content: "\f018"; }
+.icon-facebook:before             { content: "\f019"; }
+
+/* \f020 doesn't work in Safari. all shifted one down */
+.icon-bread-sign:before           { content: "\f021"; }
+.icon-bread:before                { content: "\f022"; }
+.icon-linkedin-sign:before        { content: "\f023"; }
+.icon-linkedin:before             { content: "\f024"; }
+.icon-github-sign:before          { content: "\f025"; }
+.icon-github:before               { content: "\f026"; }
+.icon-pinterest-sign:before       { content: "\f027"; }
+.icon-pinterest:before            { content: "\f028"; }
+.icon-vevo-sign:before            { content: "\f029"; }
+.icon-vevo:before                 { content: "\f030"; }
+.icon-wordpress-sign:before       { content: "\f031"; }
+.icon-wordpress:before            { content: "\f032"; }
+.icon-google-plus-sign:before     { content: "\f033"; }
+.icon-google-plus:before          { content: "\f034"; }
+.icon-foursquare-sign:before      { content: "\f035"; }
+.icon-foursquare:before           { content: "\f036"; }
+.icon-bebo-sign:before            { content: "\f037"; }
+.icon-bebo:before                 { content: "\f038"; }
+
+
+/* Social Identities */
+i.icon-facebook-sign,i.icon-facebook {
+  color:#3B5998;
+}
+i.icon-foursquare,i.icon-foursquare-sign {
+  color:#0cbadf;
+}
+i.icon-bebo, i.icon-bebo-sign {
+  color:#EE1010;
+}
+i.icon-linkedin-sign,i.icon-linkedin {
+  color:#4875B4;
+}
+i.icon-instagram-sign,i.icon-instagram {
+  color:#3F729B;
+}
+i.icon-twitter-sign,i.icon-twitter {
+  color:#33CCFF;
+}
+i.icon-youtube-sign,i.icon-youtube {
+  color:#EB2629;
+}
+i.icon-google-plus-sign,i.icon-google-plus {
+  color:#303030;
+}
+i.icon-klout-sign,i.icon-klout {
+  color:#E24A25;
+}
+i.icon-spotify-sign,i.icon-spotify {
+  color:#75C044;
+}
+i.icon-dribbble-sign,i.icon-dribbble {
+  color:#EA4C89;
+}
+i.icon-github-sign,i.icon-github {
+  color:#000;
+}
+i.icon-yelp-sign,i.icon-yelp {
+  color:#CA3C27;
+}
+i.icon-tumblr-sign,i.icon-tumblr {
+  color:#45556B;
+}
+i.icon-pinterest-sign,i.icon-pinterest {
+  color:#CB2027;
+}
+i.icon-vevo, i.icon-vevo-sign {
+  color:#DC2726;
+}
+
+
+i {
+  font-size:62px;
+}
