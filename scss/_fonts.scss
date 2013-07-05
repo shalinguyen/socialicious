@@ -1,6 +1,3 @@
-
-@charset "UTF-8";
-
 @font-face {
   font-family: "Socialicious";
   src:url("../font/socialicious.eot");
@@ -31,7 +28,6 @@
   line-height: 1;
   -webkit-font-smoothing: antialiased;
 }
-
 
 .icon-bebo:before {
   content: "a";
@@ -200,4 +196,3 @@
 .icon-yelp-sign:before {
   content: "P";
 }
-
