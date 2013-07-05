@@ -1,9 +1,8 @@
 Socialicious
 ============
 
-A social media icons library in font form for Bootstrap.
+A social media icons library in font form for Bootstrap. [http://shalinguyen.github.io/socialicious/](http://shalinguyen.github.io/socialicious/)
 
-Learn more at: [http://shalinguyen.github.io/socialicious/](http://shalinguyen.github.io/socialicious/)
 
 Live examples/reference: [http://shalinguyen.github.io/socialicious/icons-reference.html](http://shalinguyen.github.io/socialicious/icons-reference.html)
 
