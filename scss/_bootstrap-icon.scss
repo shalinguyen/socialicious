@@ -196,3 +196,8 @@ ul.icons li [class*=" icon-"] {
   @include buttonBackground($btnGithub, $btnGithubHighlight);
   border-color:($btnGithubBorder);
 }
+
+.btn-google {
+  @include buttonBackground($btnGoogle, $btnGoogleHighlight);
+  border-color:($btnGoogleBorder);
+}

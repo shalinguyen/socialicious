@@ -446,6 +446,30 @@ ul.icons li [class*=" icon-"] {
   .btn-github:active, .btn-github.active {
     background-color: black \9; }
 
+.btn-google {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #c83e2d;
+  background-image: -moz-linear-gradient(top, #dc4a38, #aa2d1e);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dc4a38), to(#aa2d1e));
+  background-image: -webkit-linear-gradient(top, #dc4a38, #aa2d1e);
+  background-image: -o-linear-gradient(top, #dc4a38, #aa2d1e);
+  background-image: linear-gradient(to bottom, #dc4a38, #aa2d1e);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFDC4A38', endColorstr='#FFAA2D1E', GradientType=0);
+  border-color: #aa2d1e #aa2d1e #691c12;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #aa2d1e;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border-color: #a12b1c; }
+  .btn-google:hover, .btn-google:focus, .btn-google:active, .btn-google.active, .btn-google.disabled, .btn-google[disabled] {
+    color: white;
+    background-color: #aa2d1e;
+    *background-color: #94271a; }
+  .btn-google:active, .btn-google.active {
+    background-color: #7e2216 \9; }
+
 /* Social Identities */
 i.icon-bebo, i.icon-bebo-sign {
   color: #ee1010; }
