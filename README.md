@@ -7,24 +7,24 @@ A social media icons library in font form for Bootstrap. [http://shalinguyen.git
 Live examples/reference: [http://shalinguyen.github.io/socialicious/icons-reference.html](http://shalinguyen.github.io/socialicious/icons-reference.html)
 
 Icons currently include:
-- Facebook
-- Twitter
 - Bebo
 - Bread
 - Dribbble
+- Facebook
 - Flickr
 - Foursquare
 - Github
 - Google Plus 
 - Instagram
+- Klout
 - Last.fm
 - Linkedin
 - Pinterest
-- Klout
 - Tumblr
+- Twitter
+- Vevo
 - Vimeo
 - Wordpress
-- Vevo
 
 ### Want to contribute?
 
