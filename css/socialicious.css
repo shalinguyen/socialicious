@@ -172,6 +172,9 @@ ul.icons li [class*=" icon-"] {
 }
 
 /* Social Identities */
+i.icon-bread-sign, i.icon-bread {
+  color:#00a4e4;
+}
 i.icon-facebook-sign,i.icon-facebook {
   color:#3B5998;
 }
@@ -179,7 +182,10 @@ i.icon-foursquare,i.icon-foursquare-sign {
   color:#0cbadf;
 }
 i.icon-bebo, i.icon-bebo-sign {
-  color:#EE1010;
+  color:#EE1010 !important;
+}
+i.icon-flickr-sign,i.icon-flickr {
+  color:#ED1E83;
 }
 i.icon-linkedin-sign,i.icon-linkedin {
   color:#4875B4;
@@ -195,6 +201,9 @@ i.icon-youtube-sign,i.icon-youtube {
 }
 i.icon-google-plus-sign,i.icon-google-plus {
   color:#303030;
+}
+i.icon-lastfm-sign, i.icon-lastfm {
+  color:#A52F23;
 }
 i.icon-klout-sign,i.icon-klout {
   color:#E24A25;
@@ -219,9 +228,4 @@ i.icon-pinterest-sign,i.icon-pinterest {
 }
 i.icon-vevo, i.icon-vevo-sign {
   color:#DC2726;
-}
-
-
-i {
-  font-size:62px;
 }
