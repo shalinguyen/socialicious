@@ -83,12 +83,6 @@
 .icon-instagram:before {
   content: "w"; }
 
-.icon-googleplus-sign:before {
-  content: "x"; }
-
-.icon-googleplus:before {
-  content: "y"; }
-
 .icon-spotify:before {
   content: "A"; }
 
@@ -148,6 +142,36 @@
 
 .icon-pinterest-sign:before {
   content: "o"; }
+
+.icon-googleplus:before {
+  content: "x"; }
+
+.icon-googleplus-sign:before {
+  content: "y"; }
+
+.icon-quora:before {
+  content: "Q"; }
+
+.icon-quora-sign:before {
+  content: "R"; }
+
+.icon-reddit:before {
+  content: "S"; }
+
+.icon-reddit-sign:before {
+  content: "T"; }
+
+.icon-soundcloud:before {
+  content: "U"; }
+
+.icon-soundcloud-sign:before {
+  content: "V"; }
+
+.icon-yahoo:before {
+  content: "W"; }
+
+.icon-yahoo-sign:before {
+  content: "X"; }
 
 /* more sprites.less reset */
 .icon-white,
@@ -462,6 +486,15 @@ i.icon-linkedin-sign, i.icon-linkedin {
 i.icon-pinterest-sign, i.icon-pinterest {
   color: #cb2027; }
 
+i.icon-quora-sign, i.icon-quora {
+  color: #a72822; }
+
+i.icon-reddit-sign, i.icon-reddit {
+  color: #638cb1; }
+
+i.icon-soundcloud-sign, i.icon-soundcloud {
+  color: #ef3b24; }
+
 i.icon-spotify-sign, i.icon-spotify {
   color: #75c044; }
 
@@ -479,6 +512,9 @@ i.icon-vimeo, i.icon-vimeo-sign {
 
 i.icon-wordpress, i.icon-wordpress-sign {
   color: #464342; }
+
+i.icon-yahoo-sign, i.icon-yahoo {
+  color: #8b2c8e; }
 
 i.icon-yelp-sign, i.icon-yelp {
   color: #ca3c27; }
