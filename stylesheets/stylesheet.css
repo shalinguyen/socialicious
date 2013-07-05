@@ -373,3 +373,27 @@ footer a:hover {
 pre span {
   color:#33CCFF;
 }
+
+ul.icons-preview {
+  margin-left:0;
+  overflow:hidden;
+  display:block;
+}
+ul.icons-preview li {
+  float:left;
+  width:117px;
+  padding-top:20px;
+  text-align:center;
+  list-style-type:none;
+  border:1px solid #ccc;
+  padding-left:0;
+  margin: 0 5px 25px 0;
+}
+ul.icons-preview li small {
+  display:block;
+  font-size:11px;
+  margin-top:35px;
+  background:white;
+  border:1px solid #ccc;
+  padding:2px;
+}
