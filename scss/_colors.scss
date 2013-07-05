@@ -6,6 +6,7 @@ $flickr:#ED1E83;
 $foursquare:#0cbadf;
 $github:#000;
 $googleplus:#303030;
+$googleplus-red:#DC4A38;
 $instagram:#3F729B;
 $klout:#E24A25;
 $lastfm:#A52F23;
@@ -41,3 +42,7 @@ $btnTwitterBorder:             darken($twitter, 17%) !default;
 $btnGithub:                   $github !default;
 $btnGithubHighlight:          darken($github, 15%) !default;
 $btnGithubBorder:             darken($github, 17%) !default;
+
+$btnGoogle:                   $googleplus-red !default;
+$btnGoogleHighlight:          darken($googleplus-red, 15%) !default;
+$btnGoogleBorder:             darken($googleplus-red, 17%) !default;
