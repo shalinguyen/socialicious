@@ -19,3 +19,20 @@ $vimeo:#1FB7EA;
 $wordpress:#464342;
 $yelp:#CA3C27;
 $youtube:#EB2629;
+// Social Buttons
+// -------------------------
+$btnFacebook:                  $facebook !default;
+$btnFacebookHighlight:         darken($facebook, 10%) !default;
+$btnFacebookBorder:            darken($facebook, 20%) !default;
+
+$btnLinkedin:                  $linkedin !default;
+$btnLinkedinHighlight:         darken($linkedin, 10%) !default;
+$btnLinkedinBorder:            darken($linkedin, 20%) !default;
+
+$btnTwitter:                   $twitter !default;
+$btnTwitterHighlight:          darken($twitter, 15%) !default;
+$btnTwitterBorder:             darken($twitter, 17%) !default;
+
+$btnGithub:                   $github !default;
+$btnGithubHighlight:          darken($github, 15%) !default;
+$btnGithubBorder:             darken($github, 17%) !default;

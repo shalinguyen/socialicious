@@ -34,7 +34,10 @@ a [class*=" icon-"] {
 .nav [class^="icon-"],
 .btn [class*=" icon-"],
 .nav [class*=" icon-"] {
-  display: inline;
+  @include inline-block;
+  color:#fff;
+  margin-right:2px;
+  margin-top:-2px;
   /* keeps button heights with and without icons the same */
 
 }
@@ -169,4 +172,27 @@ ul.icons li [class*=" icon-"] {
 .btn.btn-large [class^="icon-"].pull-right.icon-2x,
 .btn.btn-large [class*=" icon-"].pull-right.icon-2x {
   margin-left: .2em;
+}
+
+
+// Set the backgrounds
+// -------------------------
+.btn-facebook {
+  @include buttonBackground($btnFacebook, $btnFacebookHighlight);
+  border-color:($btnFacebookBorder);
+}
+
+.btn-linkedin {
+  @include buttonBackground($btnLinkedin, $btnLinkedinHighlight);
+  border-color:($btnLinkedinBorder);
+}
+
+.btn-twitter {
+  @include buttonBackground($btnTwitter, $btnTwitterHighlight);
+  border-color:($btnTwitterBorder);
+}
+
+.btn-github {
+  @include buttonBackground($btnGithub, $btnGithubHighlight);
+  border-color:($btnGithubBorder);
 }
