@@ -172,60 +172,66 @@ ul.icons li [class*=" icon-"] {
 }
 
 /* Social Identities */
-i.icon-bread-sign, i.icon-bread {
-  color:#00a4e4;
-}
-i.icon-facebook-sign,i.icon-facebook {
-  color:#3B5998;
-}
-i.icon-foursquare,i.icon-foursquare-sign {
-  color:#0cbadf;
-}
 i.icon-bebo, i.icon-bebo-sign {
   color:#EE1010 !important;
 }
-i.icon-flickr-sign,i.icon-flickr {
-  color:#ED1E83;
-}
-i.icon-linkedin-sign,i.icon-linkedin {
-  color:#4875B4;
-}
-i.icon-instagram-sign,i.icon-instagram {
-  color:#3F729B;
-}
-i.icon-twitter-sign,i.icon-twitter {
-  color:#33CCFF;
-}
-i.icon-youtube-sign,i.icon-youtube {
-  color:#EB2629;
-}
-i.icon-google-plus-sign,i.icon-google-plus {
-  color:#303030;
-}
-i.icon-lastfm-sign, i.icon-lastfm {
-  color:#A52F23;
-}
-i.icon-klout-sign,i.icon-klout {
-  color:#E24A25;
-}
-i.icon-spotify-sign,i.icon-spotify {
-  color:#75C044;
+i.icon-bread-sign, i.icon-bread {
+  color:#00a4e4;
 }
 i.icon-dribbble-sign,i.icon-dribbble {
   color:#EA4C89;
 }
+i.icon-facebook-sign,i.icon-facebook {
+  color:#3B5998;
+}
+i.icon-flickr-sign,i.icon-flickr {
+  color:#ED1E83;
+}
+i.icon-foursquare,i.icon-foursquare-sign {
+  color:#0cbadf;
+}
 i.icon-github-sign,i.icon-github {
   color:#000;
 }
-i.icon-yelp-sign,i.icon-yelp {
-  color:#CA3C27;
+i.icon-google-plus-sign,i.icon-google-plus {
+  color:#303030;
 }
-i.icon-tumblr-sign,i.icon-tumblr {
-  color:#45556B;
+i.icon-instagram-sign,i.icon-instagram {
+  color:#3F729B;
+}
+i.icon-klout-sign,i.icon-klout {
+  color:#E24A25;
+}
+i.icon-lastfm-sign, i.icon-lastfm {
+  color:#A52F23;
+}
+i.icon-linkedin-sign,i.icon-linkedin {
+  color:#4875B4;
 }
 i.icon-pinterest-sign,i.icon-pinterest {
   color:#CB2027;
 }
+i.icon-spotify-sign,i.icon-spotify {
+  color:#75C044;
+}
+i.icon-tumblr-sign,i.icon-tumblr {
+  color:#45556B;
+}
+i.icon-twitter-sign,i.icon-twitter {
+  color:#33CCFF;
+}
 i.icon-vevo, i.icon-vevo-sign {
   color:#DC2726;
+}
+i.icon-vimeo, i.icon-vimeo-sign {
+  color:#1FB7EA;
+}
+i.icon-wordpress, i.icon-wordpress-sign {
+  color:#DC2726;
+}
+i.icon-yelp-sign,i.icon-yelp {
+  color:#CA3C27;
+}
+i.icon-youtube-sign,i.icon-youtube {
+  color:#EB2629;
 }
