@@ -20,11 +20,14 @@ Icons currently include:
 - Last.fm
 - Linkedin
 - Pinterest
+- Spotify
 - Tumblr
 - Twitter
 - Vevo
 - Vimeo
 - Wordpress
+- Yelp
+- YouTube
 
 ### Want to contribute?
 
