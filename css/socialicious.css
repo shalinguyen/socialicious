@@ -1,58 +1,523 @@
-/*
-Syntax error: Undefined mixin 'buttonBackground'.
-        on line 181 of scss/_bootstrap-icon.scss, in `buttonBackground'
-        from line 181 of scss/_bootstrap-icon.scss
-        from line 3 of scss/socialicious.scss
+@font-face {
+  font-family: "Socialicious";
+  src: url("../font/socialicious.eot");
+  src: url("../font/socialicious.eot?#iefix") format("embedded-opentype"), url("../font/socialicious.ttf") format("truetype"), url("../font/socialicious.svg#socialicious") format("svg"), url("../font/socialicious.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 
-Backtrace:
-scss/_bootstrap-icon.scss:181:in `buttonBackground'
-scss/_bootstrap-icon.scss:181
-scss/socialicious.scss:3
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:170:in `visit_mixin'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:238:in `visit_rule'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:146:in `block in visit_import'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:146:in `map'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:146:in `visit_import'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/tree/root_node.rb:20:in `render'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/engine.rb:300:in `_render'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/engine.rb:247:in `render'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/plugin/compiler.rb:340:in `update_stylesheet'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/plugin/compiler.rb:202:in `block in update_stylesheets'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/plugin/compiler.rb:200:in `each'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/plugin/compiler.rb:200:in `update_stylesheets'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.20/lib/sass/plugin/compiler.rb:298:in `block in watch'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/listen-0.4.7/lib/listen/multi_listener.rb:86:in `call'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/listen-0.4.7/lib/listen/multi_listener.rb:86:in `on_change'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/listen-0.4.7/lib/listen/multi_listener.rb:95:in `block in initialize_adapter'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/listen-0.4.7/lib/listen/adapter.rb:162:in `call'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/listen-0.4.7/lib/listen/adapter.rb:162:in `poll_changed_dirs'
-/Users/shali/.rvm/gems/ruby-1.9.2-p290/gems/listen-0.4.7/lib/listen/adapters/darwin.rb:28:in `block in start'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined mixin 'buttonBackground'.\A         on line 181 of scss/_bootstrap-icon.scss, in `buttonBackground'\A         from line 181 of scss/_bootstrap-icon.scss\A         from line 3 of scss/socialicious.scss"; }
+[data-icon]:before {
+  font-family: "Socialicious";
+  content: attr(data-icon);
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "Socialicious";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
+.icon-bebo:before {
+  content: "a"; }
+
+.icon-bebo-sign:before {
+  content: "b"; }
+
+.icon-bread:before {
+  content: "c"; }
+
+.icon-bread-sign:before {
+  content: "d"; }
+
+.icon-dribbble:before {
+  content: "e"; }
+
+.icon-dribbble-sign:before {
+  content: "f"; }
+
+.icon-facebook:before {
+  content: "g"; }
+
+.icon-facebook-sign:before {
+  content: "h"; }
+
+.icon-flickr:before {
+  content: "i"; }
+
+.icon-flickr-sign:before {
+  content: "j"; }
+
+.icon-foursquare:before {
+  content: "k"; }
+
+.icon-foursquare-sign:before {
+  content: "l"; }
+
+.icon-linkedin-sign:before {
+  content: "p"; }
+
+.icon-linkedin:before {
+  content: "q"; }
+
+.icon-lastfm-sign:before {
+  content: "r"; }
+
+.icon-lastfm:before {
+  content: "s"; }
+
+.icon-klout-sign:before {
+  content: "t"; }
+
+.icon-klout:before {
+  content: "u"; }
+
+.icon-instagram-sign:before {
+  content: "v"; }
+
+.icon-instagram:before {
+  content: "w"; }
+
+.icon-spotify:before {
+  content: "A"; }
+
+.icon-spotify-sign:before {
+  content: "B"; }
+
+.icon-tumblr:before {
+  content: "F"; }
+
+.icon-tumblr-sign:before {
+  content: "G"; }
+
+.icon-twitter:before {
+  content: "H"; }
+
+.icon-twitter-sign:before {
+  content: "I"; }
+
+.icon-vevo:before {
+  content: "J"; }
+
+.icon-vevo-sign:before {
+  content: "K"; }
+
+.icon-vimeo:before {
+  content: "L"; }
+
+.icon-vimeo-sign:before {
+  content: "M"; }
+
+.icon-wordpress-sign:before {
+  content: "N"; }
+
+.icon-wordpress:before {
+  content: "O"; }
+
+.icon-yelp:before {
+  content: "C"; }
+
+.icon-yelp-sign:before {
+  content: "D"; }
+
+.icon-youtube:before {
+  content: "E"; }
+
+.icon-youtube-sign:before {
+  content: "P"; }
+
+.icon-github:before {
+  content: "m"; }
+
+.icon-github-sign:before {
+  content: "z"; }
+
+.icon-pinterest:before {
+  content: "n"; }
+
+.icon-pinterest-sign:before {
+  content: "o"; }
+
+.icon-googleplus:before {
+  content: "x"; }
+
+.icon-googleplus-sign:before {
+  content: "y"; }
+
+.icon-quora:before {
+  content: "Q"; }
+
+.icon-quora-sign:before {
+  content: "R"; }
+
+.icon-reddit:before {
+  content: "S"; }
+
+.icon-reddit-sign:before {
+  content: "T"; }
+
+.icon-soundcloud:before {
+  content: "U"; }
+
+.icon-soundcloud-sign:before {
+  content: "V"; }
+
+.icon-yahoo:before {
+  content: "W"; }
+
+.icon-yahoo-sign:before {
+  content: "X"; }
+
+/* more sprites.less reset */
+.icon-white,
+.nav-pills > .active > a > [class^="icon-"],
+.nav-pills > .active > a > [class*=" icon-"],
+.nav-list > .active > a > [class^="icon-"],
+.nav-list > .active > a > [class*=" icon-"],
+.navbar-inverse .nav > .active > a > [class^="icon-"],
+.navbar-inverse .nav > .active > a > [class*=" icon-"],
+.dropdown-menu > li > a:hover > [class^="icon-"],
+.dropdown-menu > li > a:hover > [class*=" icon-"],
+.dropdown-menu > .active > a > [class^="icon-"],
+.dropdown-menu > .active > a > [class*=" icon-"],
+.dropdown-submenu:hover > a > [class^="icon-"],
+.dropdown-submenu:hover > a > [class*=" icon-"] {
+  background-image: none; }
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  text-decoration: inherit;
+  display: inline-block;
+  speak: none; }
+
+/* makes sure icons active on rollover in links */
+a [class^="icon-"],
+a [class*=" icon-"] {
+  display: inline-block; }
+
+/* makes the font 33% larger relative to the icon container */
+.icon-large:before {
+  vertical-align: -10%;
+  font-size: 1.3333333333333333em; }
+
+.btn [class^="icon-"],
+.nav [class^="icon-"],
+.btn [class*=" icon-"],
+.nav [class*=" icon-"] {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  color: #fff;
+  margin-right: 2px;
+  margin-top: -2px;
+  /* keeps button heights with and without icons the same */ }
+
+.btn [class^="icon-"].icon-large,
+.nav [class^="icon-"].icon-large,
+.btn [class*=" icon-"].icon-large,
+.nav [class*=" icon-"].icon-large {
+  line-height: .9em; }
+
+.btn [class^="icon-"].icon-spin,
+.nav [class^="icon-"].icon-spin,
+.btn [class*=" icon-"].icon-spin,
+.nav [class*=" icon-"].icon-spin {
+  display: inline-block; }
+
+.nav-tabs [class^="icon-"],
+.nav-pills [class^="icon-"],
+.nav-tabs [class*=" icon-"],
+.nav-pills [class*=" icon-"] {
+  /* keeps button heights with and without icons the same */ }
+
+.nav-tabs [class^="icon-"],
+.nav-pills [class^="icon-"],
+.nav-tabs [class*=" icon-"],
+.nav-pills [class*=" icon-"],
+.nav-tabs [class^="icon-"].icon-large,
+.nav-pills [class^="icon-"].icon-large,
+.nav-tabs [class*=" icon-"].icon-large,
+.nav-pills [class*=" icon-"].icon-large {
+  line-height: .9em; }
+
+li [class^="icon-"],
+.nav li [class^="icon-"],
+li [class*=" icon-"],
+.nav li [class*=" icon-"] {
+  display: inline-block;
+  width: 1.25em;
+  text-align: center; }
+
+li [class^="icon-"].icon-large,
+.nav li [class^="icon-"].icon-large,
+li [class*=" icon-"].icon-large,
+.nav li [class*=" icon-"].icon-large {
+  /* increased font size for icon-large */
+  width: 1.5625em; }
+
+ul.icons {
+  list-style-type: none;
+  text-indent: -0.75em; }
+
+ul.icons li [class^="icon-"],
+ul.icons li [class*=" icon-"] {
+  width: .75em; }
+
+.icon-muted {
+  color: #eeeeee; }
+
+.icon-border {
+  border: solid 1px #eeeeee;
+  padding: .2em .25em .15em;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+
+.icon-2x {
+  font-size: 2em; }
+
+.icon-2x.icon-border {
+  border-width: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px; }
+
+.icon-3x {
+  font-size: 3em; }
+
+.icon-3x.icon-border {
+  border-width: 3px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px; }
+
+.icon-4x {
+  font-size: 4em; }
+
+.icon-4x.icon-border {
+  border-width: 4px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px; }
+
+[class^="icon-"].pull-left,
+[class*=" icon-"].pull-left {
+  margin-right: .3em; }
+
+[class^="icon-"].pull-right,
+[class*=" icon-"].pull-right {
+  margin-left: .3em; }
+
+.btn [class^="icon-"].pull-left.icon-2x,
+.btn [class*=" icon-"].pull-left.icon-2x,
+.btn [class^="icon-"].pull-right.icon-2x,
+.btn [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .18em; }
+
+.btn [class^="icon-"].icon-spin.icon-large,
+.btn [class*=" icon-"].icon-spin.icon-large {
+  line-height: .8em; }
+
+.btn.btn-small [class^="icon-"].pull-left.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-left.icon-2x,
+.btn.btn-small [class^="icon-"].pull-right.icon-2x,
+.btn.btn-small [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .25em; }
+
+.btn.btn-large [class^="icon-"],
+.btn.btn-large [class*=" icon-"] {
+  margin-top: 0; }
+
+.btn.btn-large [class^="icon-"].pull-left.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-left.icon-2x,
+.btn.btn-large [class^="icon-"].pull-right.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+  margin-top: .05em; }
+
+.btn.btn-large [class^="icon-"].pull-left.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-left.icon-2x {
+  margin-right: .2em; }
+
+.btn.btn-large [class^="icon-"].pull-right.icon-2x,
+.btn.btn-large [class*=" icon-"].pull-right.icon-2x {
+  margin-left: .2em; }
+
+.btn-facebook {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #355089;
+  background-image: -moz-linear-gradient(top, #3b5998, #2d4373);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3b5998), to(#2d4373));
+  background-image: -webkit-linear-gradient(top, #3b5998, #2d4373);
+  background-image: -o-linear-gradient(top, #3b5998, #2d4373);
+  background-image: linear-gradient(to bottom, #3b5998, #2d4373);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF3B5998', endColorstr='#FF2D4373', GradientType=0);
+  border-color: #2d4373 #2d4373 #17233c;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #2d4373;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border-color: #1e2e4f; }
+  .btn-facebook:hover, .btn-facebook:focus, .btn-facebook:active, .btn-facebook.active, .btn-facebook.disabled, .btn-facebook[disabled] {
+    color: white;
+    background-color: #2d4373;
+    *background-color: #263961; }
+  .btn-facebook:active, .btn-facebook.active {
+    background-color: #1e2e4f \9; }
+
+.btn-linkedin {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #426ba5;
+  background-image: -moz-linear-gradient(top, #4875b4, #395d90);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4875b4), to(#395d90));
+  background-image: -webkit-linear-gradient(top, #4875b4, #395d90);
+  background-image: -o-linear-gradient(top, #4875b4, #395d90);
+  background-image: linear-gradient(to bottom, #4875b4, #395d90);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF4875B4', endColorstr='#FF395D90', GradientType=0);
+  border-color: #395d90 #395d90 #243a59;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #395d90;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border-color: #2b466b; }
+  .btn-linkedin:hover, .btn-linkedin:focus, .btn-linkedin:active, .btn-linkedin.active, .btn-linkedin.disabled, .btn-linkedin[disabled] {
+    color: white;
+    background-color: #395d90;
+    *background-color: #32517d; }
+  .btn-linkedin:active, .btn-linkedin.active {
+    background-color: #2b466b \9; }
+
+.btn-twitter {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #1ebff5;
+  background-image: -moz-linear-gradient(top, #33ccff, #00ace6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#33ccff), to(#00ace6));
+  background-image: -webkit-linear-gradient(top, #33ccff, #00ace6);
+  background-image: -o-linear-gradient(top, #33ccff, #00ace6);
+  background-image: linear-gradient(to bottom, #33ccff, #00ace6);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF33CCFF', endColorstr='#FF00ACE6', GradientType=0);
+  border-color: #00ace6 #00ace6 #007399;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: #00ace6;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border-color: #00a4db; }
+  .btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active, .btn-twitter.active, .btn-twitter.disabled, .btn-twitter[disabled] {
+    color: white;
+    background-color: #00ace6;
+    *background-color: #0099cc; }
+  .btn-twitter:active, .btn-twitter.active {
+    background-color: #0086b3 \9; }
+
+.btn-github {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: black;
+  background-image: -moz-linear-gradient(top, black, black);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(black), to(black));
+  background-image: -webkit-linear-gradient(top, black, black);
+  background-image: -o-linear-gradient(top, black, black);
+  background-image: linear-gradient(to bottom, #000000, #000000);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF000000', endColorstr='#FF000000', GradientType=0);
+  border-color: black black black;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  *background-color: black;
+  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  border-color: black; }
+  .btn-github:hover, .btn-github:focus, .btn-github:active, .btn-github.active, .btn-github.disabled, .btn-github[disabled] {
+    color: white;
+    background-color: black;
+    *background-color: black; }
+  .btn-github:active, .btn-github.active {
+    background-color: black \9; }
+
+/* Social Identities */
+i.icon-bebo, i.icon-bebo-sign {
+  color: #ee1010; }
+
+i.icon-bread-sign, i.icon-bread {
+  color: #00a4e4; }
+
+i.icon-dribbble-sign, i.icon-dribbble {
+  color: #ea4c89; }
+
+i.icon-facebook-sign, i.icon-facebook {
+  color: #3b5998; }
+
+i.icon-flickr-sign, i.icon-flickr {
+  color: #ed1e83; }
+
+i.icon-foursquare, i.icon-foursquare-sign {
+  color: #0cbadf; }
+
+i.icon-github-sign, i.icon-github {
+  color: black; }
+
+i.icon-googleplus-sign, i.icon-googleplus {
+  color: #303030; }
+
+i.icon-instagram-sign, i.icon-instagram {
+  color: #3f729b; }
+
+i.icon-klout-sign, i.icon-klout {
+  color: #e24a25; }
+
+i.icon-lastfm-sign, i.icon-lastfm {
+  color: #a52f23; }
+
+i.icon-linkedin-sign, i.icon-linkedin {
+  color: #4875b4; }
+
+i.icon-pinterest-sign, i.icon-pinterest {
+  color: #cb2027; }
+
+i.icon-quora-sign, i.icon-quora {
+  color: #a72822; }
+
+i.icon-reddit-sign, i.icon-reddit {
+  color: #638cb1; }
+
+i.icon-soundcloud-sign, i.icon-soundcloud {
+  color: #ef3b24; }
+
+i.icon-spotify-sign, i.icon-spotify {
+  color: #75c044; }
+
+i.icon-tumblr-sign, i.icon-tumblr {
+  color: #45556b; }
+
+i.icon-twitter-sign, i.icon-twitter {
+  color: #33ccff; }
+
+i.icon-vevo, i.icon-vevo-sign {
+  color: #dc2726; }
+
+i.icon-vimeo, i.icon-vimeo-sign {
+  color: #1fb7ea; }
+
+i.icon-wordpress, i.icon-wordpress-sign {
+  color: #464342; }
+
+i.icon-yahoo-sign, i.icon-yahoo {
+  color: #8b2c8e; }
+
+i.icon-yelp-sign, i.icon-yelp {
+  color: #ca3c27; }
+
+i.icon-youtube-sign, i.icon-youtube {
+  color: #eb2629; }
