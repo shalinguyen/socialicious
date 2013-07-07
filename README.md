@@ -32,7 +32,7 @@ Icons currently include:
 
 ### Want to contribute?
 
-Original source files are all included in /source/ if you want to fork and create more icons. Just use the socialicious-template.ai file and generate an SVG into the svg directory.
+Original source files are all included in `/source` if you want to fork and create more icons. Just use the socialicious-template.ai file and generate an SVG into the `/svg` directory.
 
 ### More about this library
 
