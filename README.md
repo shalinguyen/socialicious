@@ -1,7 +1,7 @@
 Socialicious
 ============
 
-A social media icons library in font form made to extext Twitter Bootstrap and Font Awesome (can also be used as a stand-alone). Learn more: [http://shalinguyen.github.io/socialicious/](http://shalinguyen.github.io/socialicious/)
+A social media icons library in font-form made to extend Twitter Bootstrap and Font Awesome (can also be used as a stand-alone). Learn more: [http://shalinguyen.github.io/socialicious/](http://shalinguyen.github.io/socialicious/)
 
 Icons currently include:
 - Bebo
@@ -10,7 +10,7 @@ Icons currently include:
 - Facebook
 - Flickr
 - Foursquare
-- Github
+- GitHub
 - Google Plus 
 - Instagram
 - Klout
@@ -32,7 +32,7 @@ Icons currently include:
 
 ### Want to contribute?
 
-Original source files are all included in /source/ if you want to fork and create more icons. Just use the socialicious-template.ai file and generate an SVG into the svg directory.
+Original source files are all included in `/source` if you want to fork and create more icons. Just use the socialicious-template.ai file and generate an SVG into the `/svg` directory.
 
 ### More about this library
 
