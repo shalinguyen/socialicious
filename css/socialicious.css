@@ -173,6 +173,30 @@
 .icon-yahoo-sign:before {
   content: "X"; }
 
+.icon-behance:before {
+  content: "0"; }
+
+.icon-behance-sign:before {
+  content: "1"; }
+
+.icon-disqus:before {
+  content: "2"; }
+
+.icon-disqus-sign:before {
+  content: "3"; }
+
+.icon-goodreads:before {
+  content: "Y"; }
+
+.icon-goodreads-sign:before {
+  content: "Z"; }
+
+.icon-techendo:before {
+  content: "4"; }
+
+.icon-techendo-sign:before {
+  content: "5"; }
+
 /* more sprites.less reset */
 .icon-white,
 .nav-pills > .active > a > [class^="icon-"],
@@ -474,8 +498,14 @@ ul.icons li [class*=" icon-"] {
 i.icon-bebo, i.icon-bebo-sign {
   color: #ee1010; }
 
+i.icon-behance-sign, i.icon-behance {
+  color: #005cff; }
+
 i.icon-bread-sign, i.icon-bread {
   color: #00a4e4; }
+
+i.icon-disqus-sign, i.icon-disqus {
+  color: #2e9fff; }
 
 i.icon-dribbble-sign, i.icon-dribbble {
   color: #ea4c89; }
@@ -491,6 +521,9 @@ i.icon-foursquare, i.icon-foursquare-sign {
 
 i.icon-github-sign, i.icon-github {
   color: black; }
+
+i.icon-goodreads-sign, i.icon-goodreads {
+  color: #5a471c; }
 
 i.icon-googleplus-sign, i.icon-googleplus {
   color: #303030; }
@@ -521,6 +554,9 @@ i.icon-soundcloud-sign, i.icon-soundcloud {
 
 i.icon-spotify-sign, i.icon-spotify {
   color: #75c044; }
+
+i.icon-techendo-sign, i.icon-techendo {
+  color: #32363c; }
 
 i.icon-tumblr-sign, i.icon-tumblr {
   color: #45556b; }
