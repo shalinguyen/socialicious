@@ -5,12 +5,15 @@ A social media icons library in font-form made to extend Twitter Bootstrap and F
 
 Icons currently include:
 - Bebo
+- Behance
 - Bread
+- Disqus
 - Dribbble
 - Facebook
 - Flickr
 - Foursquare
 - GitHub
+- Goodreads
 - Google Plus 
 - Instagram
 - Klout
@@ -21,6 +24,7 @@ Icons currently include:
 - Reddit
 - Soundcloud
 - Spotify
+- Techendo
 - Tumblr
 - Twitter
 - Vevo
