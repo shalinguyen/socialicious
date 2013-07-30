@@ -24,178 +24,236 @@
   -webkit-font-smoothing: antialiased; }
 
 .icon-bebo:before {
-  content: "a"; }
+  content: "a";
+}
 
 .icon-bebo-sign:before {
-  content: "b"; }
+  content: "b";
+}
 
 .icon-bread:before {
-  content: "c"; }
+  content: "c";
+}
 
 .icon-bread-sign:before {
-  content: "d"; }
+  content: "d";
+}
 
 .icon-dribbble:before {
-  content: "e"; }
+  content: "e";
+}
 
 .icon-dribbble-sign:before {
-  content: "f"; }
+  content: "f";
+}
 
 .icon-facebook:before {
-  content: "g"; }
+  content: "g";
+}
 
 .icon-facebook-sign:before {
-  content: "h"; }
+  content: "h";
+}
 
 .icon-flickr:before {
-  content: "i"; }
+  content: "i";
+}
 
 .icon-flickr-sign:before {
-  content: "j"; }
+  content: "j";
+}
 
 .icon-foursquare:before {
-  content: "k"; }
+  content: "k";
+}
 
 .icon-foursquare-sign:before {
-  content: "l"; }
+  content: "l";
+}
 
 .icon-linkedin-sign:before {
-  content: "p"; }
+  content: "p";
+}
 
 .icon-linkedin:before {
-  content: "q"; }
+  content: "q";
+}
 
 .icon-lastfm-sign:before {
-  content: "r"; }
+  content: "r";
+}
 
 .icon-lastfm:before {
-  content: "s"; }
+  content: "s";
+}
 
 .icon-klout-sign:before {
-  content: "t"; }
+  content: "t";
+}
 
 .icon-klout:before {
-  content: "u"; }
-
-.icon-instagram-sign:before {
-  content: "v"; }
-
-.icon-instagram:before {
-  content: "w"; }
+  content: "u";
+}
 
 .icon-spotify:before {
-  content: "A"; }
+  content: "A";
+}
 
 .icon-spotify-sign:before {
-  content: "B"; }
+  content: "B";
+}
 
 .icon-tumblr:before {
-  content: "F"; }
+  content: "F";
+}
 
 .icon-tumblr-sign:before {
-  content: "G"; }
+  content: "G";
+}
 
 .icon-twitter:before {
-  content: "H"; }
+  content: "H";
+}
 
 .icon-twitter-sign:before {
-  content: "I"; }
+  content: "I";
+}
 
 .icon-vevo:before {
-  content: "J"; }
+  content: "J";
+}
 
 .icon-vevo-sign:before {
-  content: "K"; }
+  content: "K";
+}
 
 .icon-vimeo:before {
-  content: "L"; }
+  content: "L";
+}
 
 .icon-vimeo-sign:before {
-  content: "M"; }
+  content: "M";
+}
 
 .icon-wordpress-sign:before {
-  content: "N"; }
+  content: "N";
+}
 
 .icon-wordpress:before {
-  content: "O"; }
+  content: "O";
+}
 
 .icon-yelp:before {
-  content: "C"; }
+  content: "C";
+}
 
 .icon-yelp-sign:before {
-  content: "D"; }
+  content: "D";
+}
 
 .icon-youtube:before {
-  content: "E"; }
+  content: "E";
+}
 
 .icon-youtube-sign:before {
-  content: "P"; }
+  content: "P";
+}
 
 .icon-github:before {
-  content: "m"; }
+  content: "m";
+}
 
 .icon-github-sign:before {
-  content: "z"; }
+  content: "z";
+}
 
 .icon-pinterest:before {
-  content: "n"; }
+  content: "n";
+}
 
 .icon-pinterest-sign:before {
-  content: "o"; }
+  content: "o";
+}
 
 .icon-googleplus:before {
-  content: "x"; }
+  content: "x";
+}
 
 .icon-googleplus-sign:before {
-  content: "y"; }
+  content: "y";
+}
 
 .icon-quora:before {
-  content: "Q"; }
+  content: "Q";
+}
 
 .icon-quora-sign:before {
-  content: "R"; }
+  content: "R";
+}
 
 .icon-reddit:before {
-  content: "S"; }
+  content: "S";
+}
 
 .icon-reddit-sign:before {
-  content: "T"; }
+  content: "T";
+}
 
 .icon-soundcloud:before {
-  content: "U"; }
+  content: "U";
+}
 
 .icon-soundcloud-sign:before {
-  content: "V"; }
+  content: "V";
+}
 
 .icon-yahoo:before {
-  content: "W"; }
+  content: "W";
+}
 
 .icon-yahoo-sign:before {
-  content: "X"; }
+  content: "X";
+}
 
 .icon-behance:before {
-  content: "0"; }
+  content: "0";
+}
 
 .icon-behance-sign:before {
-  content: "1"; }
+  content: "1";
+}
 
 .icon-disqus:before {
-  content: "2"; }
+  content: "2";
+}
 
 .icon-disqus-sign:before {
-  content: "3"; }
+  content: "3";
+}
 
 .icon-goodreads:before {
-  content: "Y"; }
+  content: "Y";
+}
 
 .icon-goodreads-sign:before {
-  content: "Z"; }
+  content: "Z";
+}
 
 .icon-techendo:before {
-  content: "4"; }
+  content: "4";
+}
 
 .icon-techendo-sign:before {
-  content: "5"; }
+  content: "5";
+}
+
+.icon-instagram:before {
+  content: "v";
+}
+
+.icon-instagram-sign:before {
+  content: "w";
+}
 
 /* more sprites.less reset */
 .icon-white,
