@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="99.441px" height="99.44px" viewBox="0 0 99.441 99.44" enable-background="new 0 0 99.441 99.44" xml:space="preserve">
-<g id="techendo">
-	<path fill="#BCBCBC" d="M85.365,16.509H60.86v82.678h-19.09V16.509H17.392V0h67.973V16.509z"/>
-</g>
+  <g id="techendo">
+    <path fill="#BCBCBC" d="M85.365,16.509H60.86v82.678h-19.09V16.509H17.392V0h67.973V16.509z"/>
+  </g>
 </svg>

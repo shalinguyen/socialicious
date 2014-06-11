@@ -2,8 +2,8 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="99.441px" height="99.44px" viewBox="0 0 99.441 99.44" enable-background="new 0 0 99.441 99.44" xml:space="preserve">
-<g id="flickr">
-	<circle fill="#BCBCBC" cx="22.285" cy="48.984" r="22.19"/>
-	<circle fill="#BCBCBC" cx="76.97" cy="48.984" r="22.191"/>
-</g>
+  <g id="flickr">
+    <circle fill="#BCBCBC" cx="22.285" cy="48.984" r="22.19"/>
+    <circle fill="#BCBCBC" cx="76.97" cy="48.984" r="22.191"/>
+  </g>
 </svg>
