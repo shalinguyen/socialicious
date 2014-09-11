@@ -5,6 +5,12 @@
 @import "bootstrap-icon";
 
 /* Social Identities */
+i.icon-aboutme-sign,i.icon-aboutme {
+  color:$aboutme;
+}
+i.icon-angellist-sign,i.icon-angellist {
+  color:$angellist;
+}
 i.icon-bebo, i.icon-bebo-sign {
   color:$bebo;
 }
@@ -19,6 +25,9 @@ i.icon-digg-sign,i.icon-digg {
 }
 i.icon-disqus-sign,i.icon-disqus {
   color:$disqus;
+}
+i.icon-dropbox-sign,i.icon-dropbox {
+  color:$dropbox;
 }
 i.icon-dribbble-sign,i.icon-dribbble {
   color:$dribbble;
@@ -55,6 +64,9 @@ i.icon-linkedin-sign,i.icon-linkedin {
 }
 i.icon-medium-sign,i.icon-medium {
   color:$medium;
+}
+i.icon-meetup-sign,i.icon-meetup {
+  color:$meetup;
 }
 i.icon-pinterest-sign,i.icon-pinterest {
   color:$pinterest;

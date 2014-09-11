@@ -83,12 +83,6 @@
 .icon-flickr-sign:before {
   content: "p";
 }
-.icon-foursquare:before {
-  content: "q";
-}
-.icon-foursquare-sign:before {
-  content: "r";
-}
 .icon-github:before {
   content: "s";
 }
@@ -209,12 +203,6 @@
 .icon-wordpress-sign:before {
   content: "5";
 }
-.icon-yahoo:before {
-  content: "6";
-}
-.icon-yahoo-sign:before {
-  content: "7";
-}
 .icon-yelp:before {
   content: "8";
 }
@@ -227,9 +215,45 @@
 .icon-youtube-sign:before {
   content: "\"";
 }
+.icon-aboutme:before {
+  content: "#";
+}
+.icon-aboutme-sign:before {
+  content: "$";
+}
+.icon-angellist:before {
+  content: "%";
+}
+.icon-angellist-sign:before {
+  content: "&";
+}
+.icon-dropbox:before {
+  content: "'";
+}
+.icon-dropbox-sign:before {
+  content: "(";
+}
+.icon-meetup:before {
+  content: ")";
+}
+.icon-meetup-sign:before {
+  content: "*";
+}
 .icon-medium:before {
   content: "+";
 }
 .icon-medium-sign:before {
   content: ",";
+}
+.icon-foursquare:before {
+  content: "q";
+}
+.icon-foursquare-sign:before {
+  content: "r";
+}
+.icon-yahoo:before {
+  content: "6";
+}
+.icon-yahoo-sign:before {
+  content: "7";
 }
