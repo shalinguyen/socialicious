@@ -1,4 +1,4 @@
-@import "compass";
+// @import "compass";
 @import "mixins";
 @import "colors";
 @import "fonts";
@@ -13,6 +13,9 @@ i.icon-behance-sign,i.icon-behance {
 }
 i.icon-bread-sign, i.icon-bread {
   color:$bread;
+}
+i.icon-digg-sign,i.icon-digg {
+  color:$digg;
 }
 i.icon-disqus-sign,i.icon-disqus {
   color:$disqus;
@@ -53,6 +56,9 @@ i.icon-linkedin-sign,i.icon-linkedin {
 i.icon-pinterest-sign,i.icon-pinterest {
   color:$pinterest;
 }
+i.icon-pocket-sign,i.icon-pocket {
+  color:$pocket;
+}
 i.icon-quora-sign,i.icon-quora {
   color:$quora;
 }
@@ -64,6 +70,9 @@ i.icon-soundcloud-sign,i.icon-soundcloud {
 }
 i.icon-spotify-sign,i.icon-spotify {
   color:$spotify;
+}
+i.icon-stumbleupon-sign,i.icon-stumbleupon {
+  color:$stumbleupon;
 }
 i.icon-techendo-sign,i.icon-techendo {
   color:$techendo;

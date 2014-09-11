@@ -1,6 +1,7 @@
 $bebo:#EE1010;
 $behance:#005CFF;
 $bread:#00a4e4;
+$digg:#065796;
 $disqus:#2e9fff;
 $dribbble:#EA4C89;
 $facebook:#3B5998;
@@ -15,6 +16,7 @@ $klout:#E24A25;
 $lastfm:#A52F23;
 $linkedin:#4875B4;
 $pinterest:#CB2027;
+$pocket:#EE3F53;
 $spotify:#75C044;
 $tumblr:#45556B;
 $twitter:#33CCFF;
@@ -26,22 +28,23 @@ $youtube:#EB2629;
 $reddit:#638CB1;
 $techendo:#32363C;
 $soundcloud:#EF3B24;
+$stumbleupon:#E84C24;
 $quora:#A72822;
 $yahoo:#8B2C8E;
 
 // Social Buttons
 // -------------------------
-$btnFacebook:                  $facebook !default;
-$btnFacebookHighlight:         darken($facebook, 10%) !default;
-$btnFacebookBorder:            darken($facebook, 20%) !default;
+$btnFacebook:                 $facebook !default;
+$btnFacebookHighlight:        darken($facebook, 10%) !default;
+$btnFacebookBorder:           darken($facebook, 20%) !default;
 
-$btnLinkedin:                  $linkedin !default;
-$btnLinkedinHighlight:         darken($linkedin, 10%) !default;
-$btnLinkedinBorder:            darken($linkedin, 20%) !default;
+$btnLinkedin:                 $linkedin !default;
+$btnLinkedinHighlight:        darken($linkedin, 10%) !default;
+$btnLinkedinBorder:           darken($linkedin, 20%) !default;
 
-$btnTwitter:                   $twitter !default;
-$btnTwitterHighlight:          darken($twitter, 15%) !default;
-$btnTwitterBorder:             darken($twitter, 17%) !default;
+$btnTwitter:                  $twitter !default;
+$btnTwitterHighlight:         darken($twitter, 15%) !default;
+$btnTwitterBorder:            darken($twitter, 17%) !default;
 
 $btnGithub:                   $github !default;
 $btnGithubHighlight:          darken($github, 15%) !default;
