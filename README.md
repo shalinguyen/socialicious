@@ -7,6 +7,7 @@ Icons currently include:
 - Bebo
 - Behance
 - Bread
+- Digg
 - Disqus
 - Dribbble
 - Facebook
@@ -20,10 +21,12 @@ Icons currently include:
 - Last.fm
 - Linkedin
 - Pinterest
+- Pocket
 - Quora
 - Reddit
 - Soundcloud
 - Spotify
+- Stumbleupon
 - Techendo
 - Tumblr
 - Twitter
