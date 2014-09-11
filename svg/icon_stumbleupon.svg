@@ -6,43 +6,49 @@
 <style type="text/css">
 <![CDATA[
 	.st0{fill:#464342;}
-	.st1{fill:#E14C26;}
-	.st2{fill:#E84C24;}
-	.st3{fill:#EA4C89;}
-	.st4{fill:#EB2629;}
-	.st5{fill:#ED1E83;}
-	.st6{fill:#1FB7EA;}
-	.st7{fill:#EF3F53;}
-	.st8{fill:#5597D1;}
-	.st9{fill:#8B2C8E;}
-	.st10{fill:#BBBBBB;}
-	.st11{fill:#BCBCBC;}
-	.st12{fill:#F26722;}
-	.st13{fill:#5A481C;}
-	.st14{fill:url(#SVGID_1_);}
-	.st15{fill:url(#SVGID_2_);}
-	.st16{fill:#2CAAE1;}
-	.st17{fill-rule:evenodd;clip-rule:evenodd;fill:#BCBCBC;}
-	.st18{fill:#638CB1;}
-	.st19{fill:#CA3C27;}
-	.st20{fill:#CB2027;}
-	.st21{fill:#303030;}
-	.st22{fill:#33373D;}
-	.st23{fill:#00A8E1;}
-	.st24{fill:#065897;}
-	.st25{fill:#3D5B99;}
-	.st26{fill:#3F729B;}
-	.st27{fill:#75C044;}
-	.st28{fill:#A52F23;}
-	.st29{fill:#0BBADF;}
-	.st30{fill:#A72822;}
-	.st31{fill:#DC2726;}
-	.st32{fill:#4064AF;}
-	.st33{fill:url(#soundcloud_2_);}
-	.st34{fill:#45556B;}
+	.st1{fill:#E04B26;}
+	.st2{fill:#E74B24;}
+	.st3{fill:#E94C88;}
+	.st4{fill:#1AB6EA;}
+	.st5{fill:#EA2429;}
+	.st6{fill:#EC1E82;}
+	.st7{fill:#B9B9BA;}
+	.st8{fill:#EE3E53;}
+	.st9{fill:#EE4977;}
+	.st10{fill:#5496D0;}
+	.st11{fill:#BBBBBB;}
+	.st12{fill:#BCBCBC;}
+	.st13{fill:#F16722;}
+	.st14{fill:#5A471C;}
+	.st15{fill:url(#SVGID_1_);}
+	.st16{fill:url(#SVGID_2_);}
+	.st17{fill:#2AA9E0;}
+	.st18{fill-rule:evenodd;clip-rule:evenodd;fill:#BBBBBB;}
+	.st19{fill-rule:evenodd;clip-rule:evenodd;fill:#BCBCBC;}
+	.st20{fill:#C93C27;}
+	.st21{fill:#638BB0;}
+	.st22{fill:#CA2027;}
+	.st23{fill:#30302F;}
+	.st24{fill:#34373D;}
+	.st25{fill:#00405D;}
+	.st26{fill:#007EE5;}
+	.st27{fill:#00A8E1;}
+	.st28{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+	.st29{fill:#035795;}
+	.st30{fill:#3C5A97;}
+	.st31{fill:#3F64AE;}
+	.st32{fill:#3F729B;}
+	.st33{fill:#A42F23;}
+	.st34{fill:#75C044;}
+	.st35{fill:#A72723;}
+	.st36{fill:#DB2726;}
+	.st37{fill:#DD3333;}
+	.st38{fill:url(#soundcloud_2_);}
+	.st39{fill:#442D86;}
+	.st40{fill:#44556B;}
 ]]>
 </style>
-<path id="icon" class="st10" d="M55.3,40.5l6.8,3.2l10.2-3v-7C71.9,21.6,62.1,12,50,12c-12.1,0-21.9,9.5-22.3,21.4v32.1
+<path id="icon" class="st7" d="M55.3,40.5l6.8,3.2l10.2-3v-7C71.9,21.6,62.1,12,50,12c-12.1,0-21.9,9.5-22.3,21.4v32.1
 	c0,2.9-2.4,5.3-5.3,5.3s-5.3-2.4-5.3-5.3V52H0c0,0,0,13.6,0,13.8C0,78,10,88,22.4,88c12.2,0,22.2-9.8,22.3-21.9l0-31.7
 	c0-2.9,2.4-5.3,5.3-5.3s5.3,2.4,5.3,5.3L55.3,40.5L55.3,40.5z M82.9,52v14.2c0,2.9-2.4,5.3-5.3,5.3c-2.9,0-5.3-2.4-5.3-5.3v-14
 	l-10.2,3l-6.8-3.2v13.9c0.1,12.2,10.1,22,22.4,22C90,88,100,78,100,65.7c0-0.2,0-13.8,0-13.8H82.9z"/>

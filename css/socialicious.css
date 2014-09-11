@@ -76,12 +76,6 @@
 .icon-flickr-sign:before {
   content: "p"; }
 
-.icon-foursquare:before {
-  content: "q"; }
-
-.icon-foursquare-sign:before {
-  content: "r"; }
-
 .icon-github:before {
   content: "s"; }
 
@@ -202,12 +196,6 @@
 .icon-wordpress-sign:before {
   content: "5"; }
 
-.icon-yahoo:before {
-  content: "6"; }
-
-.icon-yahoo-sign:before {
-  content: "7"; }
-
 .icon-yelp:before {
   content: "8"; }
 
@@ -219,6 +207,48 @@
 
 .icon-youtube-sign:before {
   content: "\""; }
+
+.icon-aboutme:before {
+  content: "#"; }
+
+.icon-aboutme-sign:before {
+  content: "$"; }
+
+.icon-angellist:before {
+  content: "%"; }
+
+.icon-angellist-sign:before {
+  content: "&"; }
+
+.icon-dropbox:before {
+  content: "'"; }
+
+.icon-dropbox-sign:before {
+  content: "("; }
+
+.icon-meetup:before {
+  content: ")"; }
+
+.icon-meetup-sign:before {
+  content: "*"; }
+
+.icon-medium:before {
+  content: "+"; }
+
+.icon-medium-sign:before {
+  content: ","; }
+
+.icon-foursquare:before {
+  content: "q"; }
+
+.icon-foursquare-sign:before {
+  content: "r"; }
+
+.icon-yahoo:before {
+  content: "6"; }
+
+.icon-yahoo-sign:before {
+  content: "7"; }
 
 /* more sprites.less reset */
 .icon-white,
@@ -513,6 +543,12 @@ ul.icons li [class*=" icon-"] {
     background-color: #7e2216 \9; }
 
 /* Social Identities */
+i.icon-aboutme-sign, i.icon-aboutme {
+  color: #00405d; }
+
+i.icon-angellist-sign, i.icon-angellist {
+  color: black; }
+
 i.icon-bebo, i.icon-bebo-sign {
   color: #ee1010; }
 
@@ -527,6 +563,9 @@ i.icon-digg-sign, i.icon-digg {
 
 i.icon-disqus-sign, i.icon-disqus {
   color: #2e9fff; }
+
+i.icon-dropbox-sign, i.icon-dropbox {
+  color: #007ee5; }
 
 i.icon-dribbble-sign, i.icon-dribbble {
   color: #ea4c89; }
@@ -560,6 +599,12 @@ i.icon-lastfm-sign, i.icon-lastfm {
 
 i.icon-linkedin-sign, i.icon-linkedin {
   color: #4875b4; }
+
+i.icon-medium-sign, i.icon-medium {
+  color: black; }
+
+i.icon-meetup-sign, i.icon-meetup {
+  color: #dd3333; }
 
 i.icon-pinterest-sign, i.icon-pinterest {
   color: #cb2027; }
@@ -601,7 +646,7 @@ i.icon-wordpress, i.icon-wordpress-sign {
   color: #464342; }
 
 i.icon-yahoo-sign, i.icon-yahoo {
-  color: #8b2c8e; }
+  color: #400090; }
 
 i.icon-yelp-sign, i.icon-yelp {
   color: #ca3c27; }
