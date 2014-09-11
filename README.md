@@ -1,15 +1,19 @@
-Socialicious
+Socialicious 1.3
 ============
+Last updated September 11, 2014
 
 A social media icons library in font-form made to extend Twitter Bootstrap and Font Awesome (can also be used as a stand-alone). Learn more: [http://shalinguyen.github.io/socialicious/](http://shalinguyen.github.io/socialicious/)
 
 Icons currently include:
+- About.me
+- AngelList
 - Bebo
 - Behance
 - Bread
 - Digg
 - Disqus
 - Dribbble
+- Dropbox
 - Facebook
 - Flickr
 - Foursquare
@@ -20,6 +24,8 @@ Icons currently include:
 - Klout
 - Last.fm
 - Linkedin
+- Medium
+- Meetup
 - Pinterest
 - Pocket
 - Quora
