@@ -34,7 +34,8 @@ a [class*=" icon-"] {
 .nav [class^="icon-"],
 .btn [class*=" icon-"],
 .nav [class*=" icon-"] {
-  @include inline-block;
+  // @include inline-block;
+  display: inline-block;
   color:#fff;
   margin-right:2px;
   margin-top:-2px;

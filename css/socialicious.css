@@ -4,24 +4,29 @@
   src: url("../font/socialicious.eot?#iefix") format("embedded-opentype"), url("../font/socialicious.ttf") format("truetype"), url("../font/socialicious.svg#socialicious") format("svg"), url("../font/socialicious.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
-
 [data-icon]:before {
-  font-family: "Socialicious";
+  font-family: "Socialicious" !important;
   content: attr(data-icon);
-  font-style: normal;
-  font-weight: normal;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
   speak: none;
   line-height: 1;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
-  font-family: "Socialicious";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Socialicious" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
   speak: none;
   line-height: 1;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
 .icon-bebo:before {
   content: "a"; }
@@ -29,173 +34,191 @@
 .icon-bebo-sign:before {
   content: "b"; }
 
-.icon-bread:before {
+.icon-behance:before {
   content: "c"; }
 
-.icon-bread-sign:before {
+.icon-behance-sign:before {
   content: "d"; }
 
-.icon-dribbble:before {
+.icon-bread:before {
   content: "e"; }
 
-.icon-dribbble-sign:before {
+.icon-bread-sign:before {
   content: "f"; }
 
-.icon-facebook:before {
+.icon-digg:before {
   content: "g"; }
 
-.icon-facebook-sign:before {
+.icon-digg-sign:before {
   content: "h"; }
 
-.icon-flickr:before {
+.icon-disqus:before {
   content: "i"; }
 
-.icon-flickr-sign:before {
+.icon-disqus-sign:before {
   content: "j"; }
 
-.icon-foursquare:before {
+.icon-dribbble:before {
   content: "k"; }
 
-.icon-foursquare-sign:before {
+.icon-dribbble-sign:before {
   content: "l"; }
 
-.icon-linkedin-sign:before {
-  content: "p"; }
-
-.icon-linkedin:before {
-  content: "q"; }
-
-.icon-lastfm-sign:before {
-  content: "r"; }
-
-.icon-lastfm:before {
-  content: "s"; }
-
-.icon-klout-sign:before {
-  content: "t"; }
-
-.icon-klout:before {
-  content: "u"; }
-
-.icon-instagram-sign:before {
-  content: "v"; }
-
-.icon-instagram:before {
-  content: "w"; }
-
-.icon-spotify:before {
-  content: "A"; }
-
-.icon-spotify-sign:before {
-  content: "B"; }
-
-.icon-tumblr:before {
-  content: "F"; }
-
-.icon-tumblr-sign:before {
-  content: "G"; }
-
-.icon-twitter:before {
-  content: "H"; }
-
-.icon-twitter-sign:before {
-  content: "I"; }
-
-.icon-vevo:before {
-  content: "J"; }
-
-.icon-vevo-sign:before {
-  content: "K"; }
-
-.icon-vimeo:before {
-  content: "L"; }
-
-.icon-vimeo-sign:before {
-  content: "M"; }
-
-.icon-wordpress-sign:before {
-  content: "N"; }
-
-.icon-wordpress:before {
-  content: "O"; }
-
-.icon-yelp:before {
-  content: "C"; }
-
-.icon-yelp-sign:before {
-  content: "D"; }
-
-.icon-youtube:before {
-  content: "E"; }
-
-.icon-youtube-sign:before {
-  content: "P"; }
-
-.icon-github:before {
+.icon-facebook:before {
   content: "m"; }
 
-.icon-github-sign:before {
-  content: "z"; }
-
-.icon-pinterest:before {
+.icon-facebook-sign:before {
   content: "n"; }
 
-.icon-pinterest-sign:before {
+.icon-flickr:before {
   content: "o"; }
 
-.icon-googleplus:before {
-  content: "x"; }
+.icon-flickr-sign:before {
+  content: "p"; }
 
-.icon-googleplus-sign:before {
-  content: "y"; }
+.icon-foursquare:before {
+  content: "q"; }
 
-.icon-quora:before {
-  content: "Q"; }
+.icon-foursquare-sign:before {
+  content: "r"; }
 
-.icon-quora-sign:before {
-  content: "R"; }
+.icon-github:before {
+  content: "s"; }
 
-.icon-reddit:before {
-  content: "S"; }
-
-.icon-reddit-sign:before {
-  content: "T"; }
-
-.icon-soundcloud:before {
-  content: "U"; }
-
-.icon-soundcloud-sign:before {
-  content: "V"; }
-
-.icon-yahoo:before {
-  content: "W"; }
-
-.icon-yahoo-sign:before {
-  content: "X"; }
-
-.icon-behance:before {
-  content: "0"; }
-
-.icon-behance-sign:before {
-  content: "1"; }
-
-.icon-disqus:before {
-  content: "2"; }
-
-.icon-disqus-sign:before {
-  content: "3"; }
+.icon-github-sign:before {
+  content: "t"; }
 
 .icon-goodreads:before {
-  content: "Y"; }
+  content: "u"; }
 
 .icon-goodreads-sign:before {
-  content: "Z"; }
+  content: "v"; }
+
+.icon-googleplus:before {
+  content: "w"; }
+
+.icon-googleplus-sign:before {
+  content: "x"; }
+
+.icon-instagram:before {
+  content: "y"; }
+
+.icon-instagram-sign:before {
+  content: "z"; }
+
+.icon-klout:before {
+  content: "A"; }
+
+.icon-klout-sign:before {
+  content: "B"; }
+
+.icon-lastfm:before {
+  content: "C"; }
+
+.icon-lastfm-sign:before {
+  content: "D"; }
+
+.icon-linkedin:before {
+  content: "E"; }
+
+.icon-linkedin-sign:before {
+  content: "F"; }
+
+.icon-pinterest:before {
+  content: "G"; }
+
+.icon-pinterest-sign:before {
+  content: "H"; }
+
+.icon-pocket:before {
+  content: "I"; }
+
+.icon-pocket-sign:before {
+  content: "J"; }
+
+.icon-quora:before {
+  content: "K"; }
+
+.icon-quora-sign:before {
+  content: "L"; }
+
+.icon-reddit:before {
+  content: "M"; }
+
+.icon-reddit-sign:before {
+  content: "N"; }
+
+.icon-soundcloud:before {
+  content: "O"; }
+
+.icon-soundcloud-sign:before {
+  content: "P"; }
+
+.icon-spotify:before {
+  content: "Q"; }
+
+.icon-spotify-sign:before {
+  content: "R"; }
+
+.icon-stumbleupon:before {
+  content: "S"; }
+
+.icon-stumbleupon-sign:before {
+  content: "T"; }
 
 .icon-techendo:before {
-  content: "4"; }
+  content: "U"; }
 
 .icon-techendo-sign:before {
+  content: "V"; }
+
+.icon-tumblr:before {
+  content: "W"; }
+
+.icon-tumblr-sign:before {
+  content: "X"; }
+
+.icon-twitter:before {
+  content: "Y"; }
+
+.icon-twitter-sign:before {
+  content: "Z"; }
+
+.icon-vevo:before {
+  content: "0"; }
+
+.icon-vevo-sign:before {
+  content: "1"; }
+
+.icon-vimeo:before {
+  content: "2"; }
+
+.icon-vimeo-sign:before {
+  content: "3"; }
+
+.icon-wordpress:before {
+  content: "4"; }
+
+.icon-wordpress-sign:before {
   content: "5"; }
+
+.icon-yahoo:before {
+  content: "6"; }
+
+.icon-yahoo-sign:before {
+  content: "7"; }
+
+.icon-yelp:before {
+  content: "8"; }
+
+.icon-yelp-sign:before {
+  content: "9"; }
+
+.icon-youtube:before {
+  content: "!"; }
+
+.icon-youtube-sign:before {
+  content: "\""; }
 
 /* more sprites.less reset */
 .icon-white,
@@ -233,12 +256,7 @@ a [class*=" icon-"] {
 .nav [class^="icon-"],
 .btn [class*=" icon-"],
 .nav [class*=" icon-"] {
-  display: -moz-inline-stack;
   display: inline-block;
-  vertical-align: middle;
-  *vertical-align: auto;
-  zoom: 1;
-  *display: inline;
   color: #fff;
   margin-right: 2px;
   margin-top: -2px;
@@ -454,7 +472,7 @@ ul.icons li [class*=" icon-"] {
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(black), to(black));
   background-image: -webkit-linear-gradient(top, black, black);
   background-image: -o-linear-gradient(top, black, black);
-  background-image: linear-gradient(to bottom, #000000, #000000);
+  background-image: linear-gradient(to bottom, black, black);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF000000', endColorstr='#FF000000', GradientType=0);
   border-color: black black black;
@@ -504,6 +522,9 @@ i.icon-behance-sign, i.icon-behance {
 i.icon-bread-sign, i.icon-bread {
   color: #00a4e4; }
 
+i.icon-digg-sign, i.icon-digg {
+  color: #065796; }
+
 i.icon-disqus-sign, i.icon-disqus {
   color: #2e9fff; }
 
@@ -543,6 +564,9 @@ i.icon-linkedin-sign, i.icon-linkedin {
 i.icon-pinterest-sign, i.icon-pinterest {
   color: #cb2027; }
 
+i.icon-pocket-sign, i.icon-pocket {
+  color: #ee3f53; }
+
 i.icon-quora-sign, i.icon-quora {
   color: #a72822; }
 
@@ -554,6 +578,9 @@ i.icon-soundcloud-sign, i.icon-soundcloud {
 
 i.icon-spotify-sign, i.icon-spotify {
   color: #75c044; }
+
+i.icon-stumbleupon-sign, i.icon-stumbleupon {
+  color: #e84c24; }
 
 i.icon-techendo-sign, i.icon-techendo {
   color: #32363c; }
