@@ -1,10 +1,13 @@
+$socialicious-base-path: "../font !default"
+
+
 @font-face {
   font-family: "Socialicious";
-  src:url("../font/socialicious.eot");
-  src:url("../font/socialicious.eot?#iefix") format("embedded-opentype"),
-    url("../font/socialicious.ttf") format("truetype"),
-    url("../font/socialicious.svg#socialicious") format("svg"),
-    url("../font/socialicious.woff") format("woff");
+  src:url("$socialicious-base-path/socialicious.eot");
+  src:url("$socialicious-base-path/socialicious.eot?#iefix") format("embedded-opentype"),
+    url("$socialicious-base-path/socialicious.ttf") format("truetype"),
+    url("$socialicious-base-path/socialicious.svg#socialicious") format("svg"),
+    url("$socialicious-base-path/socialicious.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
